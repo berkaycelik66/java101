@@ -31,7 +31,7 @@ public class Main {
         ortalama = toplam / 6.0;
 
         String gectiMi = (ortalama>=60) ? "Sınıfı Gectiniz" : "Sınıfta Kaldınız";
-        
+
         System.out.println("Ortalamanız: "+ortalama);
         System.out.println(gectiMi);
     }
