@@ -15,8 +15,8 @@ public class ElemanlariSirala {
         }
 
         for (int i = 0; i < dizi.length; i++) {
-            for (int j = 0; j < dizi.length; j++) {
-                if (dizi[i] < dizi[j]) {
+            for (int j = i+1; j < dizi.length; j++) {
+                if (dizi[i] > dizi[j]) {
                     int ata = dizi[i];
                     dizi[i] = dizi[j];
                     dizi[j] = ata;
